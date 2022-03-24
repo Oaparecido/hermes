@@ -12,5 +12,11 @@ export class User {
   email: string;
 
   @Column()
-  password: string;
+  address_id: number;
+
+  @Column()
+  profile_image: string;
+
+  @Column()
+  created_at: string;
 }
